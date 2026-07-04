@@ -217,20 +217,14 @@ const FIREBASE_CONFIG = {
   authDomain: "vasilichgarage.firebaseapp.com",
   projectId: "vasilichgarage",
   storageBucket: "vasilichgarage.firebasestorage.app",
-  messagingSenderId: "123456789012",
-  appId: "1:123456789012:web:abcdef1234567890"
+  messagingSenderId: "1036588520865",
+  appId: "1:1036588520865:web:7a9d6959afb9b9ab5a27e0"
 };
 let db = null;
 let docRef = null;
 let firebaseReady = false;
 try{
-  if(FIREBASE_CONFIG.apiKey !== "apiKey: "AIzaSyCTAODrFQSJvwK_V2HdKQddZ4aFpDmGqRg",
-  authDomain: "vasilichgarage.firebaseapp.com",
-  projectId: "vasilichgarage",
-  storageBucket: "vasilichgarage.firebasestorage.app",
-  messagingSenderId: "1036588520865",
-  appId: "1:1036588520865:web:7a9d6959afb9b9ab5a27e0",
-  measurementId: "G-BFWGL8BXEJ""){
+  if(FIREBASE_CONFIG.apiKey !== "ВСТАВЬТЕ_СЮДА"){
     firebase.initializeApp(FIREBASE_CONFIG);
     db = firebase.firestore();
     docRef = db.collection('garage').doc('data');
