@@ -224,7 +224,7 @@ let db = null;
 let docRef = null;
 let firebaseReady = false;
 try{
-  if(FIREBASE_CONFIG.apiKey !== "ВСТАВЬТЕ_СЮДА"){
+  if(FIREBASE_CONFIG.apiKey !== "AIzaSyCTAODrFQSJvwK_V2HdKQddZ4aFpDmGqRg"){
     firebase.initializeApp(FIREBASE_CONFIG);
     db = firebase.firestore();
     docRef = db.collection('garage').doc('data');
